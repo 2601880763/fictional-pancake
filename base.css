@@ -1,0 +1,266 @@
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color:red;
+}
+i,em{
+	font-size: normal;
+}
+b,strong{
+	font-weight: normal;
+}
+.clearfix:after,
+.clearfix:before{
+	content: "";
+	display: block;
+	clear: both;
+	overflow: hidden;
+	visibility: hidden;
+	height: 0;
+}
+#header{
+	/* background: cornsilk; */
+	width: 100%;
+}
+
+#header .header-content{
+	width: 1141px;
+	height:300px;
+	margin: 0 auto;
+	background: cornsilk; 
+}
+#header .header-content .logo{
+	width: 300px;
+	height: 200px;
+	/* background: blue; */
+	float:left;
+}
+#header .header-content .logo a{
+	float: left;
+	margin-top: 24px;
+	/*width:400px;
+	height:104px;*/
+}
+#header .header-content .nav{
+	width:200px;
+	height: 104px;
+	/* background: purple; */
+	float: right;
+}
+#header .header-content .logo .key{
+	/*float: right;*/
+	
+	margin-top: 200px;
+	width: 100px;
+	padding-left: 26px;
+	/*margin-top: 34px;*/
+}
+#header .header-content .nav{
+	width: 800px;
+	height: 104px;
+	/* background: purple; */
+	float: left;
+	margin-top: 100px;
+	padding-top: 60px;
+	
+}
+/*#header .header-content .nav p{
+	margin-top: 50px;
+	margin-left: 100px;
+	font-size: 40px;
+	color: black;
+}*/
+#header .header-content .nav li{
+	float: left;
+}
+#header .header-content .nav li a{
+	width: 250px;
+	display: block;
+	text-align: center;
+	height: 73px;
+	font-size: 40px;
+	color: gray;
+	line-height: 3px;
+}
+
+#intro{
+	/* background: blue; */
+	width: 100%;
+}
+#intro .intro-content{
+	width: 1300px;
+	height:250px;
+	margin: 0 auto;
+	/* background: red; */
+	float: left;
+	padding-left: 200px;
+}
+#intro .intro-content .key{
+	width: 250px;
+	height:250px ;
+	/* background-color: burlywood; */
+	text-align: center;
+	font-size: 30px;
+	float: left;
+	
+}
+#intro .intro-content .key a{
+	display: block;
+	line-height: 160px;
+	color: black; 
+}	
+#intro .intro-content .section{
+	width: 500px;
+	height: 250px;
+	/* background-color: aqua; */
+	float: left;
+	padding-left: 300px;
+}
+#intro .intro-content .section ul{
+	font-size: 20px;
+	display: block;
+	
+}
+#intro .intro-content .section ul li{
+	line-height: 50px;
+}
+#picture{
+	/* background: orange; */
+	width: 100%;
+}
+#picture .pic-content{
+	width: 1141px;
+	height:600px;
+padding-left: 200px;
+}
+#picture .pic-content .key{
+	width: 250px;
+	height:250px ;
+	/* background-color: burlywood; */
+	text-align: center;
+	font-size: 30px;
+	float: left;
+}
+#picture .pic-content .key a{
+	color: black;
+	line-height: 120px;
+}
+#picture .pic-content .pic1{
+	width: 400px;
+	height: 400px;
+	/* background-color: aliceblue; */
+	float: left;
+}
+#picture .pic-content .pic1 img{
+	width: 300px;
+	height: 300px;
+	margin-top: 50px;
+	margin-left:50px ;
+}
+#picture .pic-content .pic2{
+	width: 400px;
+	height: 400px;
+	/* background-color: red; */
+	float: left;
+	
+}
+#picture .pic-content .pic2 img{
+	width: 300px;
+	height: 300px;
+	margin-top: 50px;
+	margin-left:50px ;
+}
+#picture .pic-content .pic3{
+	width: 400px;
+	height: 400px;
+	/* background-color: green; */
+	float: left;
+	padding-left: 250px;
+}
+#picture .pic-content .pic3 img{
+	width: 300px;
+	height: 300px;
+	margin-left:50px ;
+}
+#picture .pic-content .pic4{
+	width: 400px;
+	height: 400px;
+	/* background-color: blue; */
+	float: left;
+}
+#picture .pic-content .pic4 img{
+	width: 300px;
+	height: 300px;
+	margin-left:50px ;
+}
+ #content { 
+	
+	width: 1414px;
+	height: 600px;
+	/* background-color: aqua; */
+}
+#content .content-key{
+	width:200px;
+	height: 600px;
+	/* background-color: red; */
+	margin-left: 165px;
+	font-size: 30px;
+	float: left;
+}
+#content .content-key p{
+	padding-top: 200px;
+}
+#content .content-content{
+	width: 900px;
+	height: 600px;
+	/* background-color: gold; */
+	float: left;
+}
+#content .content-content .box
+{
+	padding-left: 200px;
+	padding-top: 40px;
+}
+#school{
+	width: 1400px;
+	height: 800px;
+	/* background-color: aqua; */
+}
+#school .text{
+	width: 400px;
+	height: 300px;
+	/* background-color: red; */
+	margin-left: 550px;
+	
+}
+#school .text p{
+	font-size: 30px;
+	padding-left: 100px;
+	
+}
+#school .text ul{
+	/* padding-left: 150px; */
+	padding-top: 50px;
+}
+#school .text ul li{
+	font-size: 20px;
+	line-height: 40px;
+	text-align: center;
+	padding-left: 10px;
+}
+#school .pic{
+	width:800px ;
+	height: 600px;
+	/* background-color: blue; */
+	margin-left: 350px;
+}
+#school .pic img{
+	width: 800px;
+	height: 450px;
+}
